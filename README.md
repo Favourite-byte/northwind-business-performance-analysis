@@ -71,6 +71,22 @@ The database contains business information relating to areas such as:
 | `Northwind Business Performance Analysis.pbix` | Power BI report containing the analysis and dashboards |
 
 ---
+### Dashboard Preview
+
+#### Sales Performance Dashboard
+![Sales Performance Dashboard](images/sales-performance.png)
+
+#### Product Performance Dashboard
+![Product Performance Dashboard](images/product-performance.png)
+
+#### Customer Analysis Dashboard
+![Customer Analysis Dashboard](images/customer-analysis.png)
+
+#### Employee Sales Performance Dashboard
+![Employee Sales Performance Dashboard](images/employee-performance.png)
+
+#### Shipping Operations Dashboard
+![Shipping Operations Dashboard](images/shipping-operations.png)
 
 ## Tools & Technologies
 
