@@ -10,6 +10,14 @@ The analysis combines supporting analysis pages with five main interactive dashb
 
 ---
 
+## Quick Access
+
+- 📊 [View Power BI Report](powerbi/)
+- 📄 [View PDF Report](pdf/)
+- 🎤 [View CEO Presentation](presentation/)
+- 🗄️ [View Northwind Database](data/)
+- 🖼️ [View Dashboard Screenshots](images/)
+
 ## Problem Statement
 
 Raw business transaction data can make it difficult to quickly understand how different areas of a business are performing.
