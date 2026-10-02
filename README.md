@@ -2,28 +2,31 @@
 
 ## Project Overview
 
-This project analyzes the **Northwind database** to evaluate business performance across sales, products, customers, markets, and employees.
+This project is a Business Intelligence and Data Analytics project developed using **Power BI** and the **Northwind sample business database**.
 
-The analysis was developed as a portfolio data analytics project using **Power BI**, with data sourced from the Northwind SQLite database.
+The project transforms business transaction data into interactive dashboards and analysis designed to provide a clearer view of sales, products, customers, employees, categories, and shipping operations.
 
-The project focuses on transforming raw business data into interactive dashboards and actionable insights that can support business decision-making.
+The analysis combines supporting analysis pages with five main interactive dashboards to explore business performance and generate data-driven insights.
 
 ---
 
 ## Problem Statement
 
-Businesses generate large amounts of transactional data, but raw data alone does not provide an easy way to understand business performance.
+Raw business transaction data can make it difficult to quickly understand how different areas of a business are performing.
 
-The objective of this project was to analyze Northwind's business data and answer questions such as:
+This project uses the Northwind database to analyze key areas of business performance, including:
 
-- How is overall sales performance changing over time?
-- Which countries and customers contribute most to revenue?
-- Which products and categories perform best?
-- Which products have low sales or high inventory?
-- How are discontinued products performing?
-- What are the purchasing patterns of customers?
-- How does employee sales performance differ?
-- What operational factors may affect business performance?
+- Sales performance and trends
+- Revenue by country and period
+- Product performance
+- Product quantity and inventory
+- Customer performance and distribution
+- Employee sales performance
+- Category performance
+- Shipping and freight performance
+- Dispatch operations
+
+The goal is to transform the available data into interactive visualizations that make business performance easier to explore and understand.
 
 ---
 
@@ -31,57 +34,58 @@ The objective of this project was to analyze Northwind's business data and answe
 
 The main objectives of this project were to:
 
-- Analyze overall business and sales performance.
+- Analyze overall business performance.
 - Identify sales trends over time.
-- Evaluate revenue by country and market.
-- Analyze product and category performance.
-- Identify high- and low-performing products.
-- Examine discontinued versus active products.
-- Analyze customer purchasing behavior.
+- Analyze revenue by country.
+- Evaluate sales performance by category.
+- Analyze product sales, quantity, pricing, and inventory.
+- Understand customer distribution and purchasing activity.
 - Evaluate employee sales performance.
-- Create interactive dashboards for business decision-making.
-- Develop recommendations based on the findings.
+- Analyze category performance.
+- Examine shipper and freight performance.
+- Analyze shipping and dispatch operations.
+- Develop business insights and recommendations from the analysis.
 
 ---
 
 ## Dataset / Data Source
 
-The project uses the **Northwind database**, a sample business database containing information about customers, orders, products, employees, suppliers, categories, shippers, and order details.
+The project uses the **Northwind sample business database**.
 
-### Database
+The database contains business information relating to areas such as:
 
-**Source:** Northwind SQLite database
-
-**File:** `Northwind.db`
-
-The database contains tables including:
-
-- Customers
 - Orders
 - Order Details
+- Customers
 - Products
-- Suppliers
-- Employees
 - Categories
+- Employees
 - Shippers
+- Suppliers
 
-> [Add original dataset/source link here]
+### Project Data Files
+
+| File | Description |
+|---|---|
+| `Northwind.db` | Northwind database used as the source data |
+| `Northwind Business Performance Analysis.pbix` | Power BI report containing the analysis and dashboards |
 
 ---
 
 ## Tools & Technologies
 
-| Tool | Purpose |
+| Tool / Technology | Purpose |
 |---|---|
-| **Power BI** | Data transformation, data modeling, analysis and dashboard creation |
-| **Power Query** | Data cleaning and preparation |
+| **Power BI** | Data analysis, modeling, visualization, and dashboard development |
+| **Power Query** | Data preparation and transformation |
 | **DAX** | Measures and business calculations |
-| **SQLite / ODBC** | Database connection and data access |
-| **Northwind Database** | Source data |
+| **SQLite** | Database source |
+| **ODBC** | Database connection |
+| **Northwind Database** | Source business data |
 
 ---
 
-## Project Workflow / Methodology
+# Project Workflow / Methodology
 
 The project followed a structured data analytics workflow:
 
@@ -90,7 +94,7 @@ Northwind Database
         ↓
 Data Connection
         ↓
-Data Cleaning & Preparation
+Data Preparation
         ↓
 Data Modeling
         ↓
