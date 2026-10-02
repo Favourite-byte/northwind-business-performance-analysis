@@ -17,6 +17,7 @@ The analysis combines supporting analysis pages with five main interactive dashb
 - 🎤 [View CEO Presentation](presentation/)
 - 🗄️ [View Northwind Database](data/)
 - 🖼️ [View Dashboard Screenshots](images/)
+- 🗂️ [View Data Model](documentation/)
 
 ## Problem Statement
 
@@ -98,6 +99,12 @@ The database contains business information relating to areas such as:
 
 #### Shipping Operations Dashboard
 ![Shipping Operations Dashboard](images/shipping-operations.png)
+
+## Data Model
+
+The Power BI data model connects the core Northwind business entities used for sales, product, customer, employee, and shipping analysis.
+
+![Northwind Data Model](documentation/data-model.png)
 
 ## Tools & Technologies
 
