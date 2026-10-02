@@ -63,12 +63,15 @@ The database contains business information relating to areas such as:
 - Shippers
 - Suppliers
 
-### Project Data Files
+## Project Files
 
-| File | Description |
+| Resource | Description |
 |---|---|
-| `Northwind.db` | Northwind database used as the source data |
-| `Northwind Business Performance Analysis.pbix` | Power BI report containing the analysis and dashboards |
+| [Power BI Report](powerbi/) | Interactive Power BI report containing the business analysis and dashboards |
+| [Northwind Database](data/) | SQLite database used as the source data |
+| [PDF Report](pdf/) | PDF version of the business analysis report |
+| [Presentation](presentation/) | CEO/business presentation summarizing the analysis and insights |
+| [Dashboard Screenshots](images/) | Screenshots of the Power BI dashboards |
 
 ---
 ### Dashboard Preview
